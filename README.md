@@ -45,17 +45,3 @@ The app follows a modern declarative UI approach where the UI state is reactivel
 
 ---
 
-## 🛠 Installation & Setup
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/Rajat-Prakash-Dhal/SkillBarter.git](https://github.com/Rajat-Prakash-Dhal/SkillBarter.git)
-    ```
-2.  **Firebase Configuration:**
-    * Create a project in the [Firebase Console](https://console.firebase.google.com/).
-    * Download your `google-services.json` and place it in the `app/` folder.
-    * Enable **Email/Password Auth** and **Cloud Firestore**.
-3.  **Firestore Rules:** Ensure your rules allow authenticated users to read/write to the `users` and `posts` collections.
-4.  **Run:** Open the project in Android Studio (Hedgehog or later) and run on a device/emulator.
-
----
-*Developed by Rajat Prakash Dhal as part of a Technology Portfolio.*
